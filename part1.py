@@ -15,13 +15,21 @@ Enter another number: 5
 The smallest number is 2
 '''
 
-number = int(input("Enter a number: "))
+x = int(input("Enter a number: "))
+y = int(input("Enter another number: "))
+z = int(input("Enter another number: "))
 
-smallest = number
-
-number = int(input("Enter another number: "))
-
-if number < smallest:
-  smallest = number
-  
-print("The smallest number is ", smallest)
+if x < y and x < z:
+  print("The smallest number is: ", x)
+elif y < x and y < z:
+  print("The smallest number is: ", y)
+elif z < y and z < x:
+  print("The smallest number is: ", z)
+elif x == z and x < y:
+  print ("The smallest number is: ", x)
+elif x == y and x < z:
+  print ("The smallest number is: ", x)
+elif y == z and y < x:
+  print ("The smallest number is:", y)
+else:
+ print("The smallest number is:", x)

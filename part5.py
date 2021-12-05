@@ -23,3 +23,56 @@ not a month
 '''
 
 #start writing your code below
+
+month = input("Enter a month: ")
+
+if month == ("January"):
+ print("This month has 31 days.")
+elif month == ("january"):
+  print("This month has 31 days.")
+elif month == ("March"):
+  print("This month has 31 days.")
+elif month == ("march"):
+  print("This month has 31 days.")
+elif month == ("May"):
+  print("This month has 31 days.")
+elif month == ("may"):
+  print("This month has 31 days.")
+elif month == ("july"):
+  print("This month has 31 days.")
+elif month == ("July"):
+  print("This month has 31 days.")
+elif month == ("August"):
+  print("This month has 31 days.")
+elif month == ("august"):
+  print("This month has 31 days.")
+elif month == ("october"):
+  print("This month has 31 days.")
+elif month == ("October"):
+  print("This month has 31 days.")
+elif month == ("December"):
+  print("This month has 31 days.")
+elif month == ("december"):
+  print("This month has 31 days.")
+elif month == ("april"):
+  print("This month has 30 days.")
+elif month == ("April"):
+  print("This month has 30 days.")
+elif month == ("June"):
+  print("This month has 30 days.")
+elif month == ("june"):
+  print("This month has 30 days.")
+elif month == ("Spetember"):
+  print("This month has 30 days.")
+elif month == ("september"):
+  print("This month has 30 days.")
+elif month == ("November"):
+  print("This month has 30 days.")
+elif month == ("november"):
+  print("This month has 30 days.")
+elif month == ("February"):
+  print("This month has either 28 or 29 days.")
+elif month == ("february"):
+  print("This month has either 28 or 29 days.")
+else:
+  print("This is not a month.")
